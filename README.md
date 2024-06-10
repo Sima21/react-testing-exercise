@@ -170,3 +170,11 @@ npx jest --coverage
 Analysiere den Coverage Report:
 
 Schaue dir den generierten Bericht im coverage-Verzeichnis an und analysiere, welche Teile des Codes nicht abgedeckt sind.
+## Kommentar zu Babel und Webpack
+
+**Babel:**
+Babel ist ein JavaScript-Transpiler, der modernen JavaScript-Code (ES6 und höher) in eine ältere Version von JavaScript übersetzt, die in verschiedenen Browsern besser unterstützt wird. Dies ermöglicht Entwicklern, die neuesten JavaScript-Funktionen zu nutzen, ohne sich um die Kompatibilität mit älteren Browsern sorgen zu müssen.
+
+**Webpack:**
+Webpack ist ein Modul-Bundler, der verschiedene Module (JavaScript, CSS, Bilder, etc.) zusammenführt und in ein oder mehrere Bundle(s) für die Ausführung im Browser verpackt. Es ermöglicht auch die Nutzung von Loaders und Plugins, um verschiedene Dateitypen zu verarbeiten und zu optimieren. Webpack bietet auch Funktionen wie Code-Splitting und Lazy Loading, um die Performance von Anwendungen zu verbessern.
+
